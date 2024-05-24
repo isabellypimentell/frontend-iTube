@@ -2,6 +2,9 @@ import Link from 'next/link';
 import Image from "next/image";
 import styles from "./page.module.css";
 
+
+
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -14,7 +17,8 @@ export default function Home() {
         <h2>Outro</h2>
     </div>
     <p><Link href={'/userlogin'}>Login</Link></p>
-    <p><Link href={'/products'}>Produtos</Link></p>  
+    <p><Link href={'/products'}>Produtos</Link></p>
+    <p><Link href={'/useregister'}>Cadastro</Link></p>  
     </main>
     
   );

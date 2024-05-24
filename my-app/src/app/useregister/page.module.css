@@ -1,4 +1,4 @@
-/* styles/Login.module.css */
+
 .container {
   display: flex;
   height: 100vh;
@@ -25,27 +25,30 @@
 }
 .logo {
   width: 100px;
-  margin: 200px auto 24px auto;
+  margin: 150px auto 24px auto;
 }
-.inputbox{
-    display: flex;
-    flex-direction: column; 
-    width: 440px; 
-    margin: 0;
-}
+
 .loginBox h2 {
   margin: 0 0 12px;
   padding: 0;
   color: #000;
-  text-align: center;
   font-size: 24px;
   font-weight: bold;
+  display: flex;
+}
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0;
 }
 .inputbox input {
-  width: 440px;
   height: 55px;
   padding: 8px 10px;
-  margin: 12px 0 12px;
   font-size: 16px;
   font-weight: bold;
   color: #333;
@@ -53,18 +56,21 @@
   border-radius: 10px;
   outline: none;
   background: transparent;
+  width: 211px;
+  margin-right: 8px; 
 }
 .inputbox label {
   font-size: 20px;
   color: #000;
-  pointer-events: none;
+  margin-bottom: 8px;
 }
+
 .button {
   width: 440px;
   height: 55px;
   background: #201047;
   border: none;
-  margin: 12px 0 12px;
+  margin: 6px 0 6px;
   cursor: pointer;
   font-size: 24px;
   color: #fff;
@@ -98,13 +104,15 @@
   color: #201047;
   text-decoration: none;
   font-size: 12px;
-  margin-right: 72px;
+  margin-right: 120px;
+  white-space: nowrap;
 }
 .link a{
   color: #201047;
   text-decoration: none;
   font-size: 12px;
   font-weight: bold;
+  white-space: nowrap;
 }
 .linksContainer {
   display: flex;
@@ -122,3 +130,7 @@
 .links a:hover, .link a:hover {
   color: #d7aefb;
 } 
+
+
+
+

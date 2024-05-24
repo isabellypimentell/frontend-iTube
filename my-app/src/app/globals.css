@@ -43,14 +43,15 @@ table {
 }
 
 
-html{
+/* html{
 	font-size: 62.5%;
-}
+} */
 
-body {
+/* body {
 	display: flex;
-	justify-content: center;
-}
+	width: 1440px;
+	height: 1024px;
+} */
 
 h1 {
 	font-size: 3rem;
