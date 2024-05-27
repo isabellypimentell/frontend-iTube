@@ -26,13 +26,13 @@ export default function Login() {
           </div>
           <div className={styles.button}>Entrar</div>
           <div className={styles.linksContainer}>
-          <div className={styles.link}>
-            Esqueceu a senha?<a href="#"> Redefina</a>
+            {/* <div className={styles.link}>
+              Esqueceu a senha?<a href="#"> Redefina</a>
+            </div> */} 
+            <div className={styles.links}>
+              Não tem conta?<a href="./useregister"> Crie uma agora</a>
+            </div>
           </div>
-          <div className={styles.links}>
-            Não tem conta?<a href="#"> Crie uma agora</a>
-          </div>
-        </div>
         </div>
         
       </div>

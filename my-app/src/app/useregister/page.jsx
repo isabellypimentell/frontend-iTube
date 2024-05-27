@@ -46,13 +46,13 @@ export default function Login() {
       </div>
       <div className={styles.button}>Entrar</div>
       <div className={styles.linksContainer}>
-      <div className={styles.link}>
-        Esqueceu a senha?<a href="#"> Redifina</a>
+        {/* <div className={styles.link}>
+          Esqueceu a senha?<a href="#"> Redifina</a>
+        </div> */} 
+        <div className={styles.links}>
+          Já tem conta? <a href="./userlogin"> Faça Login</a>
+        </div>
       </div>
-      <div className={styles.links}>
-        Já tem conta? <a href="#"> Faça Login</a>
-      </div>
-    </div>
     </div>
     
   </div>
