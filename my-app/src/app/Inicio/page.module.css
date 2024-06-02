@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+.container {
+  display: flex;
+  margin:  0 auto;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 13px;
+  background-color: #fff;
+  border-bottom: 0px solid 	#FFFAFA;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.searchBar {
+  flex: 1;
+  margin: 0 20px;
+  margin-left: 300px;
+  padding: 10px 10px;
+  border: 2px solid 	#000000;
+  border-radius: 30px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.registerButton {
+  padding: 10px 20px;
+  border: 5px solid #ccc;
+  border-radius: 15px;
+  background-color: #65558F;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.registerButton:hover {
+  background-color: #f1f1f1;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding-top: 50px;
+  background-color: #fff;
+  color: #FFFAFA;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  border-right: 1px solid #FFFAFA;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.sidebarItem {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  color: #000;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  font-family: 'Playfair Display', sans-serif;
+
+}
+
+.sidebarItem:hover {
+  background-color:#9747FF;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.sidebarItem span {
+  margin-left: 10px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  background-color: #fff;
+  margin-left: 200px; /* Ajustar para que a barra de navegação não fique atrás da barra lateral */
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.navItem {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.navItem:hover {
+  background-color: #e1e1e1;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 20px;
+  margin-left: 200px; /* Ajustar para que o conteúdo principal não fique atrás da barra lateral */
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.videoGrid {
+  display: grid;
+  margin-left: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 3fr));
+  gap: 20px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.videoCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 5px #000000(0,0,0,0.1);
+  transition: transform 0.3s;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.videoCard:hover {
+  transform: scale(1.05);
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.videoInfo {
+  padding: 5px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.videoTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.videoChannel {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 5px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.videoViews {
+  font-size: 12px;
+  color: #999;
+  font-family: 'Playfair Display', sans-serif;
+}
